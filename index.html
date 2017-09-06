@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+	<head>
+	<style>
+		.container {
+			position:relative;
+			width:100%;
+		}
+		.active {
+			border:thick solid #FF0000;
+			border-radius: 1.2rem;
+		}
+		html, body {
+           height: 100%;
+           margin: 3px;
+           padding: 0;
+        }
+        img {
+            padding: 0;
+            display: block;
+	        width:100%;
+            height: auto;
+        }
+		
+		@media (min-width: 700px){
+			.content {
+				width:60%;
+				margin: auto;
+			}
+		}
+		@media (max-width: 700px){
+			.content {
+				width:100%;
+				margin: auto;
+			}
+		}
+	</style>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	</head>
+	<body>
+		<div class="content">
+			<div id="header"><h2 id="unit"></h2></div>
+			<div id="container" class="container"></div>
+			<div id="footer"><button onclick="previousPage()">Previous</button>
+			<button onclick="previousPage()">Unit 1</button>
+			<button onclick="previousPage()">Unit 2</button>
+			<button onclick="previousPage()">Unit 3</button>
+			<button onclick="previousPage()">Unit 4</button>
+			<button onclick="previousPage()">Unit 5</button>
+			<button onclick="previousPage()">Unit 6</button>
+			<button onclick="nextPage()">Next</button></div>
+		</div>
+		<script>
+		    var currentPage=0;
+			var units=[
+				{
+					title:"Unit 1 My classroom",
+					firstPage:2
+				},
+				{
+				    title:"Unit 2 My schoolbag",
+					firstPage:2
+				}
+			]
+			var pages=[
+				{
+					image:"front-cover.jpg",
+					audio:[]
+				},
+				{
+					image:"catalog.jpg",
+					audio:[]
+				},
+				{
+					unit:0,
+					image:"unit 1/page-02.jpg",
+					audio:[
+						{
+							left:140,
+							top:200,
+							width:180,
+							height:36,
+							src:'unit1/page-02_003.mp3'
+						},
+						{
+							left:310,
+							top:307,
+							width:190,
+							height:40,
+							src:'unit1/page-02_004.mp3'
+						},
+				        {
+							left:120,
+							top:350,
+							width:150,
+							height:62,
+							src:'unit1/page-02_006.mp3'
+						},
+						{
+							left:140,
+							top:570,
+							width:198,
+							height:40,
+							src:'unit1/page-02_007.mp3'
+						},
+				
+					]
+				},
+				{
+					unit:0,
+					image:"unit 1/page-03.jpg",
+					audio:[
+						{
+							left:140,
+							top:570,
+							width:198,
+							height:40,
+							src:'unit1/page-03_007.mp3'
+						},
+						{
+							left:140,
+							top:570,
+							width:198,
+							height:40,
+							src:'unit1/page-03_007.mp3'
+						}
+					]
+				}
+			]
+			var audios=[];
+		    var lastActive;
+			function init(page){
+				var container=document.getElementById("container");
+				container.innerHTML='';
+				var img=document.createElement('img');
+				
+			    var unitHeader=document.getElementById("unit");
+				if(page.unit!==undefined){
+				    unitHeader.innerHTML=units[page.unit].title;
+					unitHeader.style.display='block';
+					unitHeader.offsetLeft=img.offsetLeft;
+				}else{
+					unitHeader.style.display='none';
+				}
+				img.src='picture/'+page.image;	
+				container.appendChild(img);
+				img.onload=function(){
+				    var scale=img.clientWidth/540;
+				    for(var i=0;i<page.audio.length;i++){
+					    var audio=page.audio[i];
+						var div=document.createElement('div');
+
+						div.style.position='absolute';
+						div.style.left=img.offsetLeft+audio.left*scale+'px';
+						div.style.top=img.offsetTop+audio.top*scale+'px';
+						div.style.height=audio.height*scale+'px';
+						div.style.width=audio.width*scale+'px';
+						container.appendChild(div);
+						var audioEle=document.createElement('audio');
+						audioEle.src='audio/'+audio.src;
+						audios[i]=audioEle;
+						div.setAttribute('idx',i);
+						div.addEventListener("click", playAudio);
+					}
+				}
+			}
+		
+			function playAudio(){
+			    if(lastActive){
+					lastActive.classList.remove('active');
+				}
+				lastActive=this;
+				this.classList.add('active');
+				audios[this.getAttribute('idx')].play();
+			}
+			function nextPage(){
+				if(currentPage<pages.length-1){
+					currentPage++;
+					init(pages[currentPage]);
+				}
+			}
+			function previousPage(){
+			    if(currentPage>0){
+					currentPage--;
+					init(pages[currentPage]);
+				}
+			}
+			init(pages[currentPage]);
+			
+			
+		</script>
+	</body>
+	
+</html>

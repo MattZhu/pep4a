@@ -10,11 +10,7 @@
 			border:thick solid #FF0000;
 			border-radius: 1.2rem;
 		}
-		html, body {
-           height: 100%;
-           margin: 3px;
-           padding: 0;
-        }
+	
         img {
             padding: 0;
             display: block;
@@ -24,8 +20,23 @@
 		
 		@media (min-width: 700px){
 			.content {
-				width:60%;
+				width:80%;
 				margin: auto;
+			}
+			.container {
+				position:relative;
+				width:80%;
+			}
+			html, body {
+			   height: 100%;
+			   margin: 5px;
+			   padding: 0;
+			}
+			#menu{
+			    text-align: center;
+			}
+			#menu > div {
+				display:inline-block;
 			}
 		}
 		@media (max-width: 700px){
@@ -33,22 +44,39 @@
 				width:100%;
 				margin: auto;
 			}
+			#menu{
+			    text-align: center;
+				padding:.3rem;
+			}
+			#menu > div {
+				display:inline-block;
+				margin-left:.2rem;
+				margin-right:.2rem;
+			}
+			html, body {
+			   height: 100%;
+			   margin: 1px;
+			   padding: 0;
+			}
+
 		}
 	</style>
+	<title>PEP 4A </title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
 	<body>
 		<div class="content">
-			<div id="header"><h2 id="unit"></h2></div>
 			<div id="container" class="container"></div>
-			<div id="footer"><button onclick="previousPage()">Previous</button>
-			<button onclick="previousPage()">Unit 1</button>
-			<button onclick="previousPage()">Unit 2</button>
-			<button onclick="previousPage()">Unit 3</button>
-			<button onclick="previousPage()">Unit 4</button>
-			<button onclick="previousPage()">Unit 5</button>
-			<button onclick="previousPage()">Unit 6</button>
-			<button onclick="nextPage()">Next</button></div>
+			<div id="menu">
+				<div onclick="previousPage()"><=</div>
+				<div onclick="unit(1)">Unit 1</div>
+				<div onclick="unit(2)">Unit 2</div>
+				<div onclick="unit(3)">Unit 3</div>
+				<div onclick="unit(4)">Unit 4</div>
+				<div onclick="unit(5)">Unit 5</div>
+				<div onclick="unit(6)">Unit 6</div>
+				<div onclick="nextPage()">=></div>
+			</div>
 		</div>
 		<script>
 		    var currentPage=0;
@@ -129,19 +157,36 @@
 			]
 			var audios=[];
 		    var lastActive;
-			function init(page){
-				var container=document.getElementById("container");
+			var container=document.getElementById("container");
+			container.addEventListener("touchstart", touchstart);
+			container.addEventListener("touchend", touchend);
+			var startX,startY;
+			function touchstart(e){
+				startX=e.touches[0].pageX;
+				startY=e.touches[0].pageY;
+			}
+			function touchend(e){
+				var xMove=e.changedTouches[0].pageX-startX;
+				var yMove=e.changedTouches[0].pageY-startY;
+				if(xMove>20){
+					previousPage();
+					return;
+				}
+				if(xMove<-20){
+					nextPage();
+					return;
+				}
+			}
+			function init(page){				
 				container.innerHTML='';
 				var img=document.createElement('img');
 				
 			    var unitHeader=document.getElementById("unit");
 				if(page.unit!==undefined){
-				    unitHeader.innerHTML=units[page.unit].title;
-					unitHeader.style.display='block';
-					unitHeader.offsetLeft=img.offsetLeft;
+			        document.title='PEP 4A - '+units[page.unit].title;
 				}else{
-					unitHeader.style.display='none';
-				}
+				    document.title='PEP 4A';
+			   }
 				img.src='picture/'+page.image;	
 				container.appendChild(img);
 				img.onload=function(){
@@ -183,6 +228,12 @@
 			    if(currentPage>0){
 					currentPage--;
 					init(pages[currentPage]);
+				}
+			}
+			function unit(idx){
+				var u=units[idx-1];
+				if(u){
+					 init(pages[u.firstPage]);
 				}
 			}
 			init(pages[currentPage]);

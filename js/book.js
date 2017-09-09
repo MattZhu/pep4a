@@ -50,11 +50,11 @@ var pages=[
 				src:'unit1/page-02_003.mp3'
 			},
 			{
-				left:310,top:307,width:190,height:40,
+				left:304,top:303,width:185,height:38,
 				src:'unit1/page-02_004.mp3'
 			},
 			{
-				left:120,top:350,width:150,height:62,
+				left:117,top:348,width:140,height:57,
 				src:'unit1/page-02_006.mp3'
 			},
 			{
@@ -91,13 +91,34 @@ var pages=[
 		image:"unit 1/page-04.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:46,top:114,width:198,height:58,
+				src:'unit1/page-04_013.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:99,top:170,width:143,height:53,
+				src:'unit1/page-04_014.mp3'
+			},
+			{
+				left:47,top:242,width:141,height:41,
+				src:'unit1/page-04_015.mp3'
+			},
+			{
+				left:303,top:107,width:95,height:38,
+				src:'unit1/page-04_016.mp3'
+			},
+			{
+				left:351,top:151,width:140,height:38,
+				src:'unit1/page-04_017.mp3'
+			},
+			{
+				left:302,top:196,width:107,height:40,
+				src:'unit1/page-04_018.mp3'
+			},
+			{
+				left:335,top:243,width:155,height:40,
+				src:'unit1/page-04_018_01.mp3'
 			}
+			
 		]
 	},
 	{

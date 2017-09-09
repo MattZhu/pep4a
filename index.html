@@ -5,6 +5,8 @@
 		.container {
 			position:relative;
 			width:100%;
+				margin:0;
+
 		}
 		.active {
 			border:thick solid #FF0000;
@@ -94,9 +96,9 @@
 			container.addEventListener("touchend", touchend);
 			var startX,startY;
 			function imgClick(e){
-				if(e.offsetX>e.currentTarget.width-50){
+				if(e.offsetX>e.currentTarget.width-100){
 					nextPage();
-				}else if(e.offsetX<50){
+				}else if(e.offsetX<100){
 					previousPage();
 				}
 			}
@@ -137,8 +139,8 @@
 						var div=document.createElement('div');
 
 						div.style.position='absolute';
-						div.style.left=img.offsetLeft+audio.left*scale+'px';
-						div.style.top=img.offsetTop+audio.top*scale+'px';
+						div.style.left=img.x-container.offsetLeft+audio.left*scale+'px';
+						div.style.top=img.y-container.offsetTop+audio.top*scale+'px';
 						div.style.height=audio.height*scale+'px';
 						div.style.width=audio.width*scale+'px';
 						container.appendChild(div);

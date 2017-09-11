@@ -54,11 +54,11 @@ var pages=[
 				src:'unit1/page-02_004.mp3'
 			},
 			{
-				left:117,top:348,width:140,height:57,
+				left:117,top:347,width:140,height:56,
 				src:'unit1/page-02_006.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
+				left:140,top:568,width:198,height:38,
 				src:'unit1/page-02_007.mp3'
 			},
 	
@@ -69,19 +69,19 @@ var pages=[
 		image:"unit 1/page-03.jpg",
 		audio:[
 			{
-				left:82,top:285,width:202,height:41,
+				left:78,top:280,width:197,height:38,
 				src:'unit1/page-03_005.mp3'
 			},
 			{
-				left:304,top:120,width:182,height:60,
+				left:300,top:115,width:170,height:55,
 				src:'unit1/page-03_008.mp3'
 			},
 			{
-				left:235,top:420,width:100,height:40,
+				left:230,top:415,width:98,height:38,
 				src:'unit1/page-03_009.mp3'
 			},
 			{
-				left:318,top:516,width:94,height:40,
+				left:313,top:511,width:94,height:36,
 				src:'unit1/page-03_010.mp3'
 			}
 		]
@@ -91,31 +91,31 @@ var pages=[
 		image:"unit 1/page-04.jpg",
 		audio:[
 			{
-				left:46,top:114,width:198,height:58,
+				left:41,top:112,width:193,height:53,
 				src:'unit1/page-04_013.mp3'
 			},
 			{
-				left:99,top:170,width:143,height:53,
+				left:94,top:175,width:141,height:53,
 				src:'unit1/page-04_014.mp3'
 			},
 			{
-				left:47,top:242,width:141,height:41,
+				left:42,top:238,width:131,height:38,
 				src:'unit1/page-04_015.mp3'
 			},
 			{
-				left:303,top:107,width:95,height:38,
+				left:298,top:102,width:95,height:38,
 				src:'unit1/page-04_016.mp3'
 			},
 			{
-				left:351,top:151,width:140,height:38,
+				left:346,top:146,width:140,height:38,
 				src:'unit1/page-04_017.mp3'
 			},
 			{
-				left:302,top:196,width:107,height:40,
+				left:298,top:191,width:103,height:40,
 				src:'unit1/page-04_018.mp3'
 			},
 			{
-				left:335,top:243,width:155,height:40,
+				left:330,top:238,width:155,height:40,
 				src:'unit1/page-04_018_01.mp3'
 			}
 			
@@ -126,12 +126,64 @@ var pages=[
 		image:"unit 1/page-05.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:186,top:251,width:192,height:40,
+				src:'unit1/page-05-01.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:264,top:360,right:451,bottom:415,
+				src:'unit1/page-05-02.mp3'
+			},
+			{
+				left:40,top:140,right:125,bottom:175,
+				src:'unit1/page-05-03.mp3'
+			},
+			{
+				left:85,top:258,right:160,bottom:290,
+				src:'unit1/page-05-04.mp3'
+			},			
+			{
+				left:190,top:150,right:285,bottom:180,
+				src:'unit1/page-05-05.mp3'
+			},
+			{
+				left:330,top:57,right:375,bottom:85,
+				src:'unit1/page-05-06.mp3'
+			},
+			{
+				left:403,top:50,right:465,bottom:72,
+				src:'unit1/page-05-07.mp3'
+			},
+			{
+				left:453,top:120,right:500,bottom:145,
+				src:'unit1/page-05-08.mp3'
+			},{
+				left:65,top:485,right:200,bottom:523,
+				src:'unit1/page-05-09.mp3'
+			},			
+			{
+				left:265,top:530,right:405,bottom:565,
+				src:'unit1/page-05-10.mp3'
+			},
+			{
+				left:65,top:585,right:210,bottom:615,
+				src:'unit1/page-05-11.mp3'
+			},
+			{
+				left:265,top:630,right:415,bottom:665,
+				src:'unit1/page-05-12.mp3'
+			},
+			{
+				left:65,top:680,right:235,bottom:715,
+				src:'unit1/page-05-13.mp3'
+			}
+			,
+			{
+				left:45,top:430,right:100,bottom:475,
+				src:'unit1/page-05-song.mp3'
+			},
+			{
+				left:100,top:430,right:250,bottom:475,
+				src:'unit1/page-05-music.mp3'
 			}
 		]
 	},
@@ -140,12 +192,41 @@ var pages=[
 		image:"unit 1/page-06.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+			    //listen and chant
+				left:104,top:88,right:327,bottom:114,
+				src:'unit1/page-06-01.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				//cake
+				left:45,top:135,right:140,bottom:264,
+				src:'unit1/page-06-02.mp3'
+			},
+			{
+				left:160,top:135,right:257,bottom:264,
+				src:'unit1/page-06-03.mp3'
+			},
+			{
+				left:280,top:135,right:373,bottom:264,
+				src:'unit1/page-06-04.mp3'
+			},
+			{
+				left:395,top:135,right:487,bottom:264,
+				src:'unit1/page-06-05.mp3'
+			}
+			,
+			{
+				left:242,top:47,right:278,bottom:80,
+				src:'unit1/page-06-chant.mp3'
+			}
+			,
+			{
+				left:285,top:47,right:320,bottom:80,
+				src:'unit1/page-06-song.mp3'
+			}
+			,
+			{
+				left:335,top:47,right:370,bottom:80,
+				src:'unit1/page-06-music.mp3'
 			}
 		]
 	},

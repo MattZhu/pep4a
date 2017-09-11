@@ -48,7 +48,10 @@ function init(page){
 		for(var i=0;i<page.audio.length;i++){
 			var audio=page.audio[i];
 			var div=document.createElement('div');
-
+            if(audio.right){
+				audio.width=audio.right-audio.left;
+				audio.height=audio.bottom-audio.top;
+			}
 			div.style.position='absolute';
 			div.style.left=img.x-container.offsetLeft+audio.left*scale+'px';
 			div.style.top=img.y-container.offsetTop+audio.top*scale+'px';

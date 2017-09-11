@@ -1,0 +1,67 @@
+.container {
+	position:relative;
+	width:100%;
+		margin:0;
+
+}
+.active {
+	border:thick solid #FF0000;
+	border-radius: 1.2rem;
+}		
+@media (min-width: 800px){
+	.content {
+		width:80%;
+		margin: auto;
+	}
+	img {
+		padding: 0;
+		display: block;
+		width:100%;
+		max-width:100%;
+		height: auto;
+	}
+	.container {
+		width:80%;
+		float:right;
+	}
+	html, body {
+	   height: 100%;
+	   margin: 5px;
+	   padding: 0;
+	}
+	#menu{
+		text-align: center;
+		float:left;
+	}
+	#menu > div {
+		
+	}
+}
+@media (max-width: 800px){
+	.content {
+		width:100%;
+		margin: auto;
+	}
+	img {
+		padding: 0;
+		display: block;
+		max-width:100%;
+		width:100%;
+		height: auto;
+	}
+	#menu{
+		text-align: center;
+		padding:.3rem;
+	}
+	#menu > div {
+		display:inline-block;
+		margin-left:.2rem;
+		margin-right:.2rem;
+	}
+	html, body {
+	   height: 100%;
+	   margin: 1px;
+	   padding: 0;
+	}
+
+}

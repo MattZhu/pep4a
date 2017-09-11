@@ -227,6 +227,14 @@ var pages=[
 			{
 				left:335,top:47,right:370,bottom:80,
 				src:'unit1/page-06-music.mp3'
+			},
+			{
+				left:100,top:285,right:340,bottom:310,
+				src:'unit1/page-06-06.mp3'
+			},
+			{
+				left:100,top:425,right:325,bottom:451,
+				src:'unit1/page-06-07.mp3'
 			}
 		]
 	},

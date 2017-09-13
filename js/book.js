@@ -243,13 +243,30 @@ var pages=[
 		image:"unit 1/page-07.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:70,top:92,right:260,bottom:130,
+				src:'unit1/page-07-01.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:305,top:87,right:350,bottom:125,
+				src:'unit1/page-07-02.mp3'
+			},
+			{
+				left:234,top:205,right:468,bottom:242,
+				src:'unit1/page-07-03.mp3'
+			},
+			{
+				left:70,top:323,right:262,bottom:360,
+				src:'unit1/page-07-04.mp3'
+			},
+			{
+				left:235,top:377,right:362,bottom:410,
+				src:'unit1/page-07-05.mp3'
+			},
+			{
+				left:372,top:395,right:463,bottom:433,
+				src:'unit1/page-07-06.mp3'
 			}
+			
 		]
 	},
 	{
@@ -257,12 +274,28 @@ var pages=[
 		image:"unit 1/page-08.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:243,top:318,right:483,bottom:370,
+				src:'unit1/page-08-01.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:16,top:193,right:118,bottom:292,
+				src:'unit1/page-08-02.mp3'
+			},
+			{
+				left:153,top:165,right:230,bottom:224,
+				src:'unit1/page-08-03.mp3'
+			},
+			{
+				left:308,top:70,right:384,bottom:156,
+				src:'unit1/page-08-04.mp3'
+			},
+			{
+				left:395,top:245,right:485,bottom:300,
+				src:'unit1/page-08-05.mp3'
+			},
+			{
+				left:370,top:375,right:445,bottom:410,
+				src:'unit1/page-08-06.mp3'
 			}
 		]
 	},
@@ -271,12 +304,36 @@ var pages=[
 		image:"unit 1/page-09.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:54,top:167,right:235,bottom:190,
+				src:'unit1/page-09-01.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:54,top:185,right:270,bottom:210,
+				src:'unit1/page-09-02.mp3'
+			},
+			{
+				left:54,top:214,right:193,bottom:235,
+				src:'unit1/page-09-03.mp3'
+			},
+			{
+				left:54,top:235,right:210,bottom:255,
+				src:'unit1/page-09-04.mp3'
+			},
+			{
+				left:54,top:260,right:210,bottom:280,
+				src:'unit1/page-09-05.mp3'
+			},
+			{
+				left:54,top:280,right:185,bottom:300,
+				src:'unit1/page-09-06.mp3'
+			},
+			{
+				left:54,top:308,right:260,bottom:325,
+				src:'unit1/page-09-07.mp3'
+			},
+			{
+				left:54,top:325,right:180,bottom:345,
+				src:'unit1/page-09-08.mp3'
 			}
 		]
 	},
@@ -285,12 +342,20 @@ var pages=[
 		image:"unit 1/page-10.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:85,top:90,right:420,bottom:120,
+				src:'unit1/page-10-01.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:135,top:620,right:405,bottom:650,
+				src:'unit1/page-10-02.mp3'
+			},
+			{
+				left:90,top:580,right:250,bottom:615,
+				src:'unit1/page-10-song.mp3'
+			},
+			{
+				left:50,top:580,right:90,bottom:615,
+				src:'unit1/page-10-music.mp3'
 			}
 		]
 	},
@@ -299,12 +364,52 @@ var pages=[
 		image:"unit 1/page-11.jpg",
 		audio:[
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:98,top:148,right:188,bottom:218,
+				src:'unit1/page-11-01.mp3'
 			},
 			{
-				left:140,top:570,width:198,height:40,
-				src:'unit1/page-03_007.mp3'
+				left:61,top:311,right:145,bottom:336,
+				src:'unit1/page-11-02.mp3'
+			},
+			{
+				left:150,top:300,right:240,bottom:340,
+				src:'unit1/page-11-03.mp3'
+			},
+			{
+				left:256,top:315,right:320,bottom:365,
+				src:'unit1/page-11-04.mp3'
+			},
+			{
+				left:300,top:360,right:355,bottom:395,
+				src:'unit1/page-11-05.mp3'
+			},
+			{
+				left:383,top:320,right:477,bottom:359,
+				src:'unit1/page-11-06.mp3'
+			},
+			{
+				left:390,top:375,right:425,bottom:395,
+				src:'unit1/page-11-07.mp3'
+			},
+			{
+				left:65,top:505,right:120,bottom:540,
+				src:'unit1/page-11-08.mp3'
+			},
+			{
+				left:180,top:575,right:260,bottom:610,
+				src:'unit1/page-11-09.mp3'
+			},
+			{
+				left:55,top:597,right:140,bottom:635,
+				src:'unit1/page-11-10.mp3'
+			},
+			{
+				left:320,top:470,right:415,bottom:525,
+				src:'unit1/page-11-11.mp3'
+			},
+			{  
+			    left:295,top:610,right:375,bottom:660,
+				src:'unit1/page-11-12.mp3'
 			}
 		]
 	}

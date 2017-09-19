@@ -412,6 +412,57 @@ var pages=[
 				src:'unit1/page-11-12.mp3'
 			}
 		]
+	},
+	{
+		unit:1,
+		image:"unit 2/page-12.jpg",
+		audio:[
+			{
+				left:75,top:168,right:287,bottom:207,
+				src:'unit2/page-12-01.mp3'
+			},
+			{
+				left:160,top:238,right:266,bottom:273,
+				src:'unit2/page-12-02.mp3'
+			},
+			{
+				left:135,top:482,right:290,bottom:520,
+				src:'unit2/page-12-03.mp3'
+			},
+			{
+				left:265,top:535,right:407,bottom:572,
+				src:'unit2/page-12-04.mp3'
+			},
+				{
+				left:220,top:600,right:352,bottom:655,
+				src:'unit2/page-12-05.mp3'
+			}
+		]
+	},
+	{
+		unit:1,
+		image:"unit 2/page-13.jpg",
+		audio:[
+			{
+				left:40,top:400,right:211,bottom:440,
+				src:'unit2/page-13-01.mp3'
+			},
+			{
+				left:320,top:564,right:430,bottom:600,
+				src:'unit2/page-13-02.mp3'
+			},
+			{
+				left:160,top:630,right:325,bottom:682,
+				src:'unit2/page-13-03.mp3'
+			}
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-12.jpg",
+		audio:[
+		
+		]
 	}
 	
 ]

@@ -91,6 +91,7 @@ function unit(idx){
 	var u=units[idx-1];
 	if(u){
 		 init(pages[u.firstPage]);
+		 currentPage=u.firstPage;
 	}
 }
 init(pages[currentPage]);

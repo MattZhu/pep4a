@@ -2,14 +2,16 @@
 	position:relative;
 	width:100%;
 		margin:0;
+		padding:0;
 
 }
 .active {
-	border:thick solid #FF0000;
-	border-radius: 1.2rem;
+	border:3px solid #FF0000;
+	border-radius: 1.0rem;
 }		
 @media (min-width: 800px){
 	.content {
+		position:relative;
 		width:80%;
 		margin: auto;
 	}

@@ -500,26 +500,56 @@ var pages=[
 		unit:1,
 		image:"unit 2/page-17.jpg",
 		audio:[		    
-			{left:178,top:92,right:358,bottom:149,src:''},
+			{left:88,top:99,right:323,bottom:139,src:'unit2/page-17-01.mp3'},
+			{left:236,top:145,right:385,bottom:186,src:'unit2/page-17-02.mp3'},
+			{left:168,top:192,right:323,bottom:232,src:'unit2/page-17-03.mp3'},
+			{left:234,top:276,right:374,bottom:317,src:'unit2/page-17-04.mp3'},
+			{left:157,top:331,right:323,bottom:385,src:'unit2/page-17-05.mp3'},
+			{left:228,top:393,right:324,bottom:433,src:'unit2/page-17-06.mp3'},
+			{left:281,top:451,right:430,bottom:488,src:'unit2/page-17-07.mp3'}
+			
 		]
 	},
 		{
 		unit:1,
 		image:"unit 2/page-18.jpg",
 		audio:[		    
-			{left:178,top:92,right:358,bottom:149,src:''},
+			{left:64,top:111,right:229,bottom:162,src:'unit2/page-18-01.mp3'},
+			{left:349,top:147,right:400,bottom:178,src:'unit2/page-18-02.mp3'},
+			{left:411,top:175,right:483,bottom:196,src:'unit2/page-18-03.mp3'},
+			{left:372,top:238,right:418,bottom:257,src:'unit2/page-18-04.mp3'},
+			{left:410,top:279,right:452,bottom:299,src:'unit2/page-18-05.mp3'}
 		]
 	},
     {
 		unit:1,
 		image:"unit 2/page-19.jpg",
 		audio:[		    
+			{left:95,top:91,right:290,bottom:120,src:'unit2/page-19-01.mp3'},
+			{left:99,top:126,right:282,bottom:149,src:'unit2/page-19-02.mp3'},
+			{left:94,top:146,right:476,bottom:187,src:'unit2/page-19-03.mp3'}
+		]
+	},
+	{
+		unit:1,
+		image:"unit 2/page-20.jpg",
+		audio:[		    
+			{left:88,top:87,right:320,bottom:121,src:'unit2/page-20-01.mp3'},
+			{left:115,top:586,right:268,bottom:614,src:'unit2/page-20-03.mp3'},
+			{left:109,top:615,right:376,bottom:702,src:'unit2/page-20-04.mp3'},
+			{left:45,top:542,right:98,bottom:581,src:'unit2/page-20-music.mp3'}
+		]
+	},
+	{
+		unit:1,
+		image:"unit 2/page-21.jpg",
+		audio:[		    
 			{left:178,top:92,right:358,bottom:149,src:''},
 		]
 	},
 	{
 		unit:2,
-		image:"unit 3/page-14.jpg",
+		image:"unit 3/page-22.jpg",
 		audio:[
 		{
 				left:40,top:400,right:211,bottom:440,
@@ -534,6 +564,68 @@ var pages=[
 				src:'unit2/page-13-03.mp3'
 			}
 		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-23.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-24.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-25.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-26.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-27.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-28.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-29.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-30.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
+	},
+	{
+		unit:2,
+		image:"unit 3/page-31.jpg",
+		audio:[		    
+			{left:178,top:92,right:358,bottom:149,src:''},
+		]
 	}
-	
 ]

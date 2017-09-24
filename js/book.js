@@ -544,7 +544,18 @@ var pages=[
 		unit:1,
 		image:"unit 2/page-21.jpg",
 		audio:[		    
-			{left:178,top:92,right:358,bottom:149,src:''},
+			{left:66,top:150,right:157,bottom:196,src:'unit2/page-21-01.mp3'},
+			{left:211,top:166,right:324,bottom:231,src:'unit2/page-21-02.mp3'},
+			{left:210,top:247,right:283,bottom:284,src:'unit2/page-21-03.mp3'},
+			{left:362,top:110,right:475,bottom:176,src:'unit2/page-21-04.mp3'},
+			{left:88,top:300,right:212,bottom:363,src:'unit2/page-21-05.mp3'},
+			{left:119,top:365,right:200,bottom:391,src:'unit2/page-21-06.mp3'},
+			{left:147,top:393,right:253,bottom:432,src:'unit2/page-21-07.mp3'},
+			{left:328,top:341,right:430,bottom:367,src:'unit2/page-21-08.mp3'},
+			{left:340,top:376,right:419,bottom:431,src:'unit2/page-21-09.mp3'},
+			{left:122,top:558,right:220,bottom:621,src:'unit2/page-21-10.mp3'},
+			{left:322,top:476,right:455,bottom:529,src:'unit2/page-21-11.mp3'},
+			{left:330,top:617,right:406,bottom:672,src:'unit2/page-21-12.mp3'}
 		]
 	},
 	{

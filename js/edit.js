@@ -63,7 +63,7 @@ function mouseupHandler(e) {
     var aW = Math.abs(currentX)
     var aH = Math.abs(currentY)
 
-    positionEle.innerHTML="{left:"+aLeft+",top:"+aTop+",right:"+(aLeft+aW)+",bottom:"+(aTop+aH)+",src:''}";
+    positionEle.innerHTML="{left:"+aLeft+",top:"+aTop+",right:"+(aLeft+aW)+",bottom:"+(aTop+aH)+",src:''},";
 }
 
 function openSelector(e) {

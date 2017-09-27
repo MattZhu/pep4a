@@ -10,6 +10,11 @@
 		margin:0;
         
 	}
+	#clickContainer{
+		position:absolute;
+		left: 0px;
+		top: 0px;
+	}
 	.content {
 		width:80%;
 		margin: auto;
@@ -51,13 +56,17 @@
 		<div class="content">
 			<div id="container" class="container">
 				<div id="ghost" class="ghost-select ghost-active"><span class="ghost-select"></span></div>
+				<div id="clickContainer"></div>
 			</div>
 			<div id="tools">
 				<textarea id="positionEle" cols="50">请选择一个区域</textarea>
 				<div>
-				<button onclick="previousPage()">上一页</button>
-				<button onclick="nextPage()">下一页</button>
-				<button onclick="copy()">Copy</button>
+					<button onclick="previousPage()">上一页</button>
+					<button onclick="nextPage()">下一页</button>
+					<button onclick="copy()">Copy</button>
+					<button onclick="add()">Add</button>
+					<button onclick="remove()">Remove</button>
+					<textarea id="outputData" cols="50"></textarea>
 				</div>
 			</div>
 		</div>

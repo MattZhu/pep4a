@@ -15,7 +15,7 @@ function imgClick(e){
 	}
 }
 function init(page){				
-
+    resetPage();
 	var unitHeader=document.getElementById("unit");
 	if(page.unit!==undefined){
 		document.title='PEP 4A - '+units[page.unit].title;
@@ -29,15 +29,54 @@ function init(page){
 var initialW,initialH;
 
 var positionEle= document.getElementById("positionEle");
+var outputData= document.getElementById("outputData");
+
 var ghost = document.getElementById('ghost');
 var currentW,currentY;
+var currentDiv;
+var clickContainer = document.getElementById('clickContainer');
+function copy(){
+	outputData.select();
+	document.execCommand("copy");
+}
+
+function add(){
+	var div=document.createElement('div');
+	var pos=JSON.parse(positionEle.innerHTML);
+	div.style.position='absolute';
+	div.style.left=pos.left+"px";
+	div.style.top=pos.top+"px";
+	div.style.width=(pos.right-pos.left)+"px";
+	div.style.height=(pos.bottom-pos.top)+"px";
+	div.style.backgroundColor="rgba(239, 28, 190, 0.6)";
+	div.style.border="1px solid #b20e8c";
+	clickContainer.appendChild(div);
+	currentDiv=div;
+	div.addEventListener("click", selectDiv);
+}
+
+function selectDiv(e){
+	currentDiv=this;
+}
+
+function remove(){
+	
+}
+
+
+function resetPage(){
+	ghost.style.width=0;
+	ghost.style.height=0;
+	clickContainer.innerHTML='';
+}
+
 function mousedownHandler(e){
 	
 	 console.log("mousedownHandler offsetX, offsetY,pageX,pageY",e.offsetX,e.offsetY,e.pageX,e.pageY);
 	currentX=0;
 	currentY=0;
-		ghost.width=0;
-		ghost.height=0;
+		ghost.style.width=0;
+		ghost.style.height=0;
 		ghost.style.position='absolute';
 		ghost.style.left=e.offsetX+"px";
 		ghost.style.top=e.offsetY+"px";
@@ -45,11 +84,6 @@ function mousedownHandler(e){
      initialH = e.offsetY;
      container.addEventListener("mouseup", mouseupHandler);
      container.addEventListener("mousemove", openSelector);
-}
-
-function copy(){
-	positionEle.select();
-	document.execCommand("copy");
 }
 
 function mouseupHandler(e) {
@@ -63,7 +97,7 @@ function mouseupHandler(e) {
     var aW = Math.abs(currentX)
     var aH = Math.abs(currentY)
 
-    positionEle.innerHTML="{left:"+aLeft+",top:"+aTop+",right:"+(aLeft+aW)+",bottom:"+(aTop+aH)+",src:''},";
+    positionEle.innerHTML='{"left":'+aLeft+',"top":'+aTop+',"right":'+(aLeft+aW)+',"bottom":'+(aTop+aH)+'}';
 }
 
 function openSelector(e) {
@@ -103,6 +137,7 @@ function previousPage(){
 	if(currentPage>0){
 		currentPage--;
 		init(pages[currentPage]);
+		clickContainer.innerHTML='';
 	}
 }
 function unit(idx){

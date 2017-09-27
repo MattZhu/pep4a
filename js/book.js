@@ -584,9 +584,10 @@ var pages=[
 			{left:53,top:97,right:168,bottom:153,src:''},
 			{left:116,top:160,right:246,bottom:216,src:''},
 			{left:53,top:223,right:169,bottom:279,src:''},
-			{left:263,top:74,right:351,bottom:130,src:''},
-			{left:390,top:79,right:491,bottom:135,src:''},
-			{left:248,top:254,right:442,bottom:296,src:''},
+			{left:260,top:73,right:352,bottom:130,src:''},
+			{left:387,top:78,right:491,bottom:135,src:''},
+			{left:248,top:255,right:442,bottom:295,src:''},
+			{left:399,top:352,right:488,bottom:392,src:''}
 		]
 	},
 	{

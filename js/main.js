@@ -53,13 +53,14 @@ function init(page){
 				audio.width=audio.right-audio.left;
 				audio.height=audio.bottom-audio.top;
 			}
-			console.log("audio",i,"left:"+audio.left*scale+",top:"+audio.top*scale+",width:"+audio.width*scale+",height:"+audio.height*scale);
+			console.log("audio",i,"left:"+scaleValue(audio.left,scale)+",top:"+scaleValue(audio.top,scale)
+			+",width:"+scaleValue(audio.width,scale)+",height:"+scaleValue(audio.height,scale));
 			div.style.position='absolute';
 			div.style.boxSizing='border-box';
-			div.style.left=audio.left*scale+'px';
-			div.style.top=audio.top*scale+'px';
-			div.style.height=audio.height*scale+'px';
-			div.style.width=audio.width*scale+'px';
+			div.style.left=scaleValue(audio.left,scale)+'px';
+			div.style.top=scaleValue(audio.top,scale)+'px';
+			div.style.height=scaleValue(audio.height,scale)+'px';
+			div.style.width=scaleValue(audio.width,scale)+'px';
 			container.appendChild(div);
 			var audioEle=document.createElement('audio');
 			audioEle.src='audio/'+audio.src;
@@ -68,6 +69,9 @@ function init(page){
 			div.addEventListener("click", playAudio);
 		}
 	}
+}
+function scaleValue(val,s){
+	return Math.round(val*s);
 }
 
 function playAudio(){

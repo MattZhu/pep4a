@@ -64,6 +64,7 @@ function init(page){
 			container.appendChild(div);
 			var audioEle=document.createElement('audio');
 			audioEle.src='audio/'+audio.src;
+			audioEle.preload='auto';
 			audios[i]=audioEle;
 			div.setAttribute('idx',i);
 			div.addEventListener("click", playAudio);

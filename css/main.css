@@ -22,7 +22,11 @@
 		max-width:100%;
 		height: auto;
 	}
-	.full-header{
+	.hide-phone{
+		display:block;
+	}
+	.show-phone{
+		display:none;
 	}
 	.container {
 		width:80%;
@@ -62,12 +66,14 @@
 		padding:.3rem;
 	}
 	#menu > div {
-		display:inline-block;
 		margin-left:.2rem;
 		margin-right:.2rem;
 	}
-	.full-header{
+	.hide-phone{
 		display:none;
+	}
+	.show-phone{
+		display:inline-block;
 	}
 	html, body {
 	   height: 100%;

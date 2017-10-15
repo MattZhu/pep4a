@@ -761,43 +761,88 @@ var pages=[
 	{
 		unit:4,
 		image:"unit 4/page-36.jpg",
-		audio:[		    
+		audio:[
+			{"left":47,"top":195,"right":263,"bottom":235,src:'unit4/page-36-01.mp3'},
+			{"left":60,"top":358,"right":240,"bottom":398,src:'unit4/page-36-02.mp3'},
+			{"left":62,"top":424,"right":239,"bottom":464,src:'unit4/page-36-03.mp3'},
+			{"left":47,"top":599,"right":216,"bottom":639,src:'unit4/page-36-04.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-37.jpg",
-		audio:[		    
+		audio:[
+			{"left":315,"top":423,"right":386,"bottom":459,src:'unit4/page-37-01.mp3'},
+			{"left":178,"top":474,"right":301,"bottom":530,src:'unit4/page-37-02.mp3'},
+			{"left":320,"top":637,"right":491,"bottom":692,src:'unit4/page-37-03.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-38.jpg",
-		audio:[		    
+		audio:[
+			{"left":48,"top":101,"right":230,"bottom":142,src:'unit4/page-38-01.mp3'},
+			{"left":204,"top":204,"right":321,"bottom":245,src:'unit4/page-38-02.mp3'},
+			{"left":369,"top":49,"right":495,"bottom":104,src:'unit4/page-38-03.mp3'},
+			{"left":392,"top":181,"right":495,"bottom":221,src:'unit4/page-38-04.mp3'},
+			{"left":48,"top":248,"right":208,"bottom":288,src:'unit4/page-38-05.mp3'},
+			{"left":131,"top":393,"right":239,"bottom":434,src:'unit4/page-38-06.mp3'},
+			{"left":378,"top":321,"right":498,"bottom":376,src:'unit4/page-38-07.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-39.jpg",
-		audio:[		    
+		audio:[
+			{"left":55,"top":218,"right":215,"bottom":272,src:'unit4/page-39-01.mp3'},
+			{"left":116,"top":367,"right":215,"bottom":407,src:'unit4/page-39-02.mp3'},
+			{"left":181,"top":106,"right":258,"bottom":142,src:'unit4/page-39-03.mp3'},
+			{"left":33,"top":386,"right":117,"bottom":423,src:'unit4/page-39-04.mp3'},
+			{"left":271,"top":213,"right":332,"bottom":243,src:'unit4/page-39-05.mp3'},
+			{"left":219,"top":388,"right":295,"bottom":426,src:'unit4/page-39-06.mp3'},
+			{"left":403,"top":388,"right":478,"bottom":426,src:'unit4/page-39-07.mp3'},
+			{"left":161,"top":481,"right":341,"bottom":524,src:'unit4/page-39-08.mp3'},
+			{"left":167,"top":532,"right":351,"bottom":574,src:'unit4/page-39-09.mp3'},
+			{"left":166,"top":582,"right":318,"bottom":626,src:'unit4/page-39-10.mp3'},
+			{"left":165,"top":630,"right":324,"bottom":678,src:'unit4/page-39-11.mp3'},
+			{"left":163,"top":681,"right":336,"bottom":729,src:'unit4/page-39-12.mp3'},
+			{"left":88,"top":438,"right":235,"bottom":473,src:'unit4/page-39-song.mp3'},
+			{"left":36,"top":436,"right":88,"bottom":479,src:'unit4/page-39-music.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-40.jpg",
-		audio:[		    
+		audio:[
+			{"left":70,"top":224,"right":188,"bottom":268,src:'unit4/page-40-02.mp3'},
+			{"left":206,"top":235,"right":318,"bottom":281,src:'unit4/page-40-03.mp3'},
+			{"left":355,"top":233,"right":443,"bottom":265,src:'unit4/page-40-04.mp3'},
+			{"left":95,"top":289,"right":329,"bottom":325,src:'unit4/page-40-05.mp3'},
+			{"left":96,"top":431,"right":341,"bottom":477,src:'unit4/page-40-06.mp3'},
+			{"left":103,"top":52,"right":293,"bottom":80,src:'unit4/page-40-music.mp3'},
+			{"left":104,"top":87,"right":332,"bottom":119,src:'unit4/page-40-chant.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-41.jpg",
-		audio:[		    
+		audio:[
+			{"left":119,"top":99,"right":231,"bottom":154,src:'unit4/page-41-01.mp3'},
+			{"left":137,"top":168,"right":186,"bottom":206,src:'unit4/page-41-02.mp3'},
+			{"left":313,"top":98,"right":477,"bottom":138,src:'unit4/page-41-03.mp3'},
+			{"left":276,"top":143,"right":381,"bottom":198,src:'unit4/page-41-04.mp3'},
+			{"left":314,"top":227,"right":437,"bottom":268,src:'unit4/page-41-05.mp3'},
+			{"left":51,"top":270,"right":180,"bottom":325,src:'unit4/page-41-06.mp3'},
+			{"left":171,"top":362,"right":293,"bottom":403,src:'unit4/page-41-07.mp3'},
+			{"left":314,"top":285,"right":420,"bottom":341,src:'unit4/page-41-08.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-42.jpg",
-		audio:[		    
+		audio:[
+			{"left":234,"top":230,"right":337,"bottom":286,src:'unit4/page-42-01.mp3'},
+			{"left":344,"top":246,"right":446,"bottom":301,src:'unit4/page-42-02.mp3'}
 		]
 	},
 	{

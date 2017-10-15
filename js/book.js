@@ -686,5 +686,281 @@ var pages=[
 			{"left":379,"top":590,"right":454,"bottom":636,src:'unit3/page-31-07.mp3'}
 			
 		]
+	},
+	{
+		unit:3,
+		image:"recycle 1/page-32.jpg",
+		audio:[
+			{"left":63,"top":18,"right":303,"bottom":70,src:'recycle1/page-32-01.mp3'},
+			{"left":62,"top":75,"right":184,"bottom":108,src:'recycle1/page-32-02.mp3'},
+			{"left":85,"top":122,"right":154,"bottom":160,src:'recycle1/page-32-03.mp3'},
+			{"left":124,"top":165,"right":184,"bottom":193,src:'recycle1/page-32-04.mp3'},
+			{"left":283,"top":74,"right":440,"bottom":119,src:'recycle1/page-32-05.mp3'},
+			{"left":319,"top":129,"right":478,"bottom":183,src:'recycle1/page-32-06.mp3'},
+			{"left":75,"top":317,"right":122,"bottom":344,src:'recycle1/page-32-07.mp3'},
+			{"left":136,"top":317,"right":229,"bottom":383,src:'recycle1/page-32-08.mp3'},
+			{"left":271,"top":313,"right":360,"bottom":359,src:'recycle1/page-32-09.mp3'},
+			{"left":359,"top":353,"right":481,"bottom":423,src:'recycle1/page-32-10.mp3'},
+			{"left":260,"top":396,"right":330,"bottom":440,src:'recycle1/page-32-11.mp3'},
+			{"left":80,"top":550,"right":216,"bottom":609,src:'recycle1/page-32-12.mp3'},
+			{"left":245,"top":539,"right":367,"bottom":576,src:'recycle1/page-32-13.mp3'},
+			{"left":370,"top":567,"right":492,"bottom":610,src:'recycle1/page-32-14.mp3'},
+			{"left":299,"top":607,"right":340,"bottom":633,src:'recycle1/page-32-15.mp3'},
+			{"left":252,"top":698,"right":462,"bottom":742,src:'recycle1/page-32-16.mp3'}
+		]
+	},
+	{
+		unit:3,
+		image:"recycle 1/page-33.jpg",
+		audio:[		    
+			{"left":53,"top":47,"right":234,"bottom":80,src:'recycle1/page-33-01.mp3'},
+			{"left":122,"top":143,"right":164,"bottom":162,src:'recycle1/page-33-02.mp3'},
+			{"left":175,"top":197,"right":226,"bottom":219,src:'recycle1/page-33-03.mp3'},
+			{"left":246,"top":380,"right":304,"bottom":409,src:'recycle1/page-33-04.mp3'},
+			{"left":315,"top":415,"right":362,"bottom":441,src:'recycle1/page-33-05.mp3'},
+			{"left":356,"top":314,"right":405,"bottom":339,src:'recycle1/page-33-06.mp3'},
+			{"left":89,"top":213,"right":148,"bottom":233,src:'recycle1/page-33-07.mp3'},
+			{"left":152,"top":337,"right":204,"bottom":362,src:'recycle1/page-33-08.mp3'},
+			{"left":208,"top":236,"right":263,"bottom":262,src:'recycle1/page-33-09.mp3'},
+			{"left":310,"top":200,"right":357,"bottom":223,src:'recycle1/page-33-10.mp3'},
+			{"left":400,"top":104,"right":453,"bottom":129,src:'recycle1/page-33-11.mp3'},
+			{"left":69,"top":284,"right":113,"bottom":306,src:'recycle1/page-33-12.mp3'},
+			{"left":207,"top":131,"right":263,"bottom":154,src:'recycle1/page-33-13.mp3'},
+			{"left":244,"top":166,"right":298,"bottom":188,src:'recycle1/page-33-14.mp3'},
+			{"left":271,"top":271,"right":320,"bottom":299,src:'recycle1/page-33-15.mp3'},
+			{"left":380,"top":174,"right":424,"bottom":197,src:'recycle1/page-33-16.mp3'},
+			{"left":73,"top":363,"right":115,"bottom":381,src:'recycle1/page-33-17.mp3'},
+			{"left":145,"top":268,"right":184,"bottom":290,src:'recycle1/page-33-18.mp3'},
+			{"left":286,"top":101,"right":318,"bottom":123,src:'recycle1/page-33-19.mp3'},
+			{"left":341,"top":136,"right":388,"bottom":157,src:'recycle1/page-33-20.mp3'},
+			{"left":342,"top":244,"right":384,"bottom":266,src:'recycle1/page-33-21.mp3'},
+			{"left":113,"top":428,"right":154,"bottom":445,src:'recycle1/page-33-22.mp3'},
+			{"left":186,"top":416,"right":229,"bottom":438,src:'recycle1/page-33-23.mp3'},
+			{"left":229,"top":307,"right":274,"bottom":330,src:'recycle1/page-33-24.mp3'},
+			{"left":290,"top":341,"right":335,"bottom":366,src:'recycle1/page-33-25.mp3'},
+			{"left":385,"top":388,"right":434,"bottom":414,src:'recycle1/page-33-26.mp3'},
+			{"left":51,"top":480,"right":306,"bottom":511,src:'recycle1/page-33-27.mp3'},
+			{"left":233,"top":50,"right":277,"bottom":81,src:'recycle1/page-33-part1.mp3'}
+		]
+	},
+	{
+		unit:3,
+		image:"recycle 1/page-34.jpg",
+		audio:[
+			{"left":41,"top":390,"right":408,"bottom":416,src:'recycle1/page-34-01.mp3'},
+			{"left":48,"top":434,"right":348,"bottom":501,src:'recycle1/page-34-02.mp3'},
+			{"left":37,"top":557,"right":339,"bottom":663,src:'recycle1/page-34-03.mp3'}
+		]
+	},
+	{
+		unit:3,
+		image:"recycle 1/page-35.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-36.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-37.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-38.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-39.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-40.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-41.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-42.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-43.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-44.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:4,
+		image:"unit 4/page-45.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-46.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-47.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-48.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-49.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-50.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-51.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-52.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-53.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-54.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:5,
+		image:"unit 5/page-55.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-56.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-57.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-58.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-59.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-60.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-61.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-62.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-63.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-64.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:6,
+		image:"unit 6/page-65.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:7,
+		image:"recycle 2/page-66.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:7,
+		image:"recycle 2/page-67.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:7,
+		image:"recycle 2/page-68.jpg",
+		audio:[		    
+		]
+	},
+	{
+		unit:7,
+		image:"recycle 2/page-69.jpg",
+		audio:[		    
+		]
 	}
+	
 ]

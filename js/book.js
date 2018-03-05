@@ -842,163 +842,378 @@ var pages=[
 		image:"unit 4/page-42.jpg",
 		audio:[
 			{"left":234,"top":230,"right":337,"bottom":286,src:'unit4/page-42-01.mp3'},
-			{"left":344,"top":246,"right":446,"bottom":301,src:'unit4/page-42-02.mp3'}
+			{"left":344,"top":246,"right":446,"bottom":301,src:'unit4/page-42-02.mp3'},
+			{"left":54,"top":223,"right":107,"bottom":261,src:'unit4/page-42-bed.mp3'},
+			{"left":97,"top":326,"right":163,"bottom":355,src:'unit4/page-42-phone.mp3'},
+			{"left":53,"top":373,"right":116,"bottom":406,src:'unit4/page-42-table.mp3'},
+			{"left":280,"top":154,"right":363,"bottom":191,src:'unit4/page-42-sofa.mp3'},
+			{"left":427,"top":369,"right":497,"bottom":408,src:'unit4/page-42-fridge.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-43.jpg",
 		audio:[		    
+			{"left":35,"top":121,"right":268,"bottom":260,src:'unit4/page-43-01.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-44.jpg",
 		audio:[		    
+			{"left":85,"top":89,"right":447,"bottom":128,src:'unit4/page-44-01.mp3'},
+			{"left":207,"top":594,"right":308,"bottom":623,src:'unit4/page-44-02.mp3'},
+			{"left":133,"top":624,"right":395,"bottom":704,src:'unit4/page-44-song.mp3'},
+			{"left":57,"top":541,"right":97,"bottom":585,src:'unit4/page-44-music.mp3'}
 		]
 	},
 	{
 		unit:4,
 		image:"unit 4/page-45.jpg",
-		audio:[		    
+		audio:[
+			{"left":86,"top":60,"right":240,"bottom":94,src:'unit4/page-45-01.mp3'},
+			{"left":75,"top":144,"right":175,"bottom":193,src:'unit4/page-45-02.mp3'},
+			{"left":190,"top":177,"right":296,"bottom":223,src:'unit4/page-45-03.mp3'},
+			{"left":350,"top":145,"right":458,"bottom":191,src:'unit4/page-45-04.mp3'},
+			{"left":73,"top":361,"right":173,"bottom":421,src:'unit4/page-45-05.mp3'},
+			{"left":180,"top":384,"right":287,"bottom":431,src:'unit4/page-45-06.mp3'},
+			{"left":332,"top":382,"right":465,"bottom":428,src:'unit4/page-45-07.mp3'},
+			{"left":332,"top":534,"right":414,"bottom":563,src:'unit4/page-45-08.mp3'},
+			{"left":82,"top":572,"right":154,"bottom":605,src:'unit4/page-45-09.mp3'},
+			{"left":183,"top":577,"right":282,"bottom":624,src:'unit4/page-45-10.mp3'},
+			{"left":324,"top":582,"right":394,"bottom":625,src:'unit4/page-45-11.mp3'},
+			{"left":413,"top":586,"right":475,"bottom":615,src:'unit4/page-45-12.mp3'}
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-46.jpg",
-		audio:[		    
+		audio:[
+			{"left":153,"top":58,"right":387,"bottom":106,src:'unit5/page-46-00.mp3'},
+			{"left":160,"top":340,"right":324,"bottom":379,src:'unit5/page-46-01.mp3'},
+			{"left":224,"top":393,"right":370,"bottom":434,src:'unit5/page-46-02.mp3'},
+			{"left":317,"top":594,"right":505,"bottom":634,src:'unit5/page-46-03.mp3'}
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-47.jpg",
 		audio:[		    
+			{"left":87,"top":52,"right":453,"bottom":121,src:'unit5/page-47-00.mp3'},
+			{"left":349,"top":143,"right":490,"bottom":186,src:'unit5/page-47-01.mp3'},
+			{"left":103,"top":406,"right":247,"bottom":461,src:'unit5/page-47-02.mp3'},
+			{"left":76,"top":650,"right":216,"bottom":705,src:'unit5/page-47-03.mp3'},
+			{"left":282,"top":480,"right":358,"bottom":521,src:'unit5/page-47-04.mp3'},
+			{"left":331,"top":671,"right":447,"bottom":710,src:'unit5/page-47-05.mp3'}
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-48.jpg",
-		audio:[		    
+		audio:[
+			{"left":89,"top":57,"right":222,"bottom":89,src:'unit5/page-48-00.mp3'},
+			{"left":45,"top":119,"right":200,"bottom":175,src:'unit5/page-48-01.mp3'},
+			{"left":74,"top":188,"right":234,"bottom":228,src:'unit5/page-48-02.mp3'},
+			{"left":46,"top":237,"right":173,"bottom":310,src:'unit5/page-48-03.mp3'},
+			{"left":272,"top":112,"right":402,"bottom":166,src:'unit5/page-48-04.mp3'},
+			{"left":318,"top":175,"right":463,"bottom":231,src:'unit5/page-48-05.mp3'},
+			{"left":317,"top":245,"right":442,"bottom":285,src:'unit5/page-48-06.mp3'},
+			{"left":367,"top":389,"right":440,"bottom":429,src:'unit5/page-48-07.mp3'}
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-49.jpg",
-		audio:[		    
+		audio:[
+			{"left":85,"top":58,"right":235,"bottom":91,src:'unit5/page-49-00.mp3'},
+			{"left":63,"top":95,"right":229,"bottom":135,src:'unit5/page-49-01.mp3'},
+			{"left":326,"top":110,"right":475,"bottom":166,src:'unit5/page-49-02.mp3'},
+			{"left":89,"top":154,"right":206,"bottom":210,src:'unit5/page-49-03.mp3'},
+			{"left":30,"top":224,"right":107,"bottom":268,src:'unit5/page-49-beef.mp3'},
+			{"left":112,"top":222,"right":207,"bottom":268,src:'unit5/page-49-chicken.mp3'},
+			{"left":32,"top":279,"right":118,"bottom":327,src:'unit5/page-49-noodles.mp3'},
+			{"left":125,"top":277,"right":196,"bottom":327,src:'unit5/page-49-soup.mp3'},
+			{"left":36,"top":334,"right":188,"bottom":372,src:'unit5/page-49-vegetables.mp3'},
+			{"left":253,"top":214,"right":325,"bottom":269,src:'unit5/page-49-rice.mp3'},
+			{"left":333,"top":209,"right":406,"bottom":268,src:'unit5/page-49-fish.mp3'},
+			{"left":259,"top":273,"right":328,"bottom":333,src:'unit5/page-49-juice.mp3'},
+			{"left":335,"top":272,"right":407,"bottom":332,src:'unit5/page-49-milk.mp3'},
+			{"left":264,"top":331,"right":390,"bottom":369,src:'unit5/page-49-bread.mp3'}			
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-50.jpg",
-		audio:[		    
+		audio:[
+			{"left":103,"top":52,"right":243,"bottom":85,src:'unit5/page-50-00.mp3'},
+			{"left":104,"top":90,"right":334,"bottom":123,src:'unit5/page-50-chant.mp3'},
+			{"left":45,"top":140,"right":138,"bottom":265,src:'unit5/page-50-02.mp3'},
+			{"left":162,"top":141,"right":257,"bottom":265,src:'unit5/page-50-03.mp3'},
+			{"left":279,"top":140,"right":370,"bottom":265,src:'unit5/page-50-04.mp3'},
+			{"left":398,"top":142,"right":485,"bottom":268,src:'unit5/page-50-05.mp3'},
+			{"left":92,"top":285,"right":356,"bottom":323,src:'unit5/page-50-06.mp3'},
+			{"left":89,"top":437,"right":328,"bottom":480,src:'unit5/page-50-07.mp3'},
+			{"left":244,"top":53,"right":279,"bottom":87,src:'unit5/page-50-song.mp3'}
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-51.jpg",
-		audio:[		    
+		audio:[
+			{"left":87,"top":56,"right":217,"bottom":90,src:'unit5/page-51-00.mp3'},
+			{"left":55,"top":108,"right":184,"bottom":164,src:'unit5/page-51-01.mp3'},
+			{"left":177,"top":178,"right":253,"bottom":217,src:'unit5/page-51-02.mp3'},
+			{"left":231,"top":92,"right":365,"bottom":147,src:'unit5/page-51-03.mp3'},
+			{"left":369,"top":95,"right":503,"bottom":151,src:'unit5/page-51-04.mp3'},
+			{"left":335,"top":277,"right":457,"bottom":333,src:'unit5/page-51-05.mp3'},
+			{"left":394,"top":405,"right":497,"bottom":446,src:'unit5/page-51-06.mp3'}
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-52.jpg",
-		audio:[		    
+		audio:[
+			{"left":99,"top":52,"right":250,"bottom":86,src:'unit5/page-52-00.mp3'},
+			{"left":134,"top":87,"right":271,"bottom":141,src:'unit5/page-52-01.mp3'},
+			{"left":285,"top":89,"right":483,"bottom":144,src:'unit5/page-52-02.mp3'},
+			{"left":208,"top":208,"right":258,"bottom":237,src:'unit5/page-52-bowl.mp3'},
+			{"left":47,"top":281,"right":128,"bottom":308,src:'unit5/page-52-chopsticks.mp3'},
+			{"left":209,"top":280,"right":264,"bottom":302,src:'unit5/page-52-fork.mp3'},
+			{"left":225,"top":302,"right":278,"bottom":324,src:'unit5/page-52-knife.mp3'},
+			{"left":351,"top":221,"right":405,"bottom":249,src:'unit5/page-52-spoon.mp3'},
+			{"left":101,"top":342,"right":211,"bottom":371,src:'unit5/page-52-03.mp3'},
+			{"left":193,"top":370,"right":347,"bottom":405,src:'unit5/page-52-04.mp3'},
+			{"left":43,"top":512,"right":172,"bottom":551,src:'unit5/page-52-05.mp3'},
+			{"left":204,"top":515,"right":336,"bottom":553,src:'unit5/page-52-06.mp3'},
+			{"left":366,"top":515,"right":503,"bottom":551,src:'unit5/page-52-07.mp3'},
+			{"left":40,"top":675,"right":174,"bottom":713,src:'unit5/page-52-08.mp3'},
+			{"left":205,"top":680,"right":336,"bottom":712,src:'unit5/page-52-09.mp3'},
+			{"left":370,"top":682,"right":495,"bottom":715,src:'unit5/page-52-10.mp3'},
+			{"left":52,"top":337,"right":109,"bottom":376,src:'unit5/page-52-song.mp3'},
+			{"left":211,"top":340,"right":247,"bottom":375,src:'unit5/page-52-music.mp3'}
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-53.jpg",
-		audio:[		    
+		audio:[
+			{"left":88,"top":52,"right":309,"bottom":86,src:'unit5/page-53-00.mp3'},
+			{"left":87,"top":91,"right":234,"bottom":118,src:'unit5/page-53-01.mp3'},
+			{"left":128,"top":127,"right":284,"bottom":181,src:'unit5/page-53-02.mp3'},
+			{"left":210,"top":187,"right":323,"bottom":238,src:'unit5/page-53-03.mp3'},
+			{"left":44,"top":240,"right":190,"bottom":296,src:'unit5/page-53-04.mp3'},
+			{"left":88,"top":302,"right":210,"bottom":342,src:'unit5/page-53-05.mp3'},
+			{"left":213,"top":252,"right":360,"bottom":308,src:'unit5/page-53-06.mp3'},
+			{"left":366,"top":265,"right":490,"bottom":334,src:'unit5/page-53-07.mp3'}
+			
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-54.jpg",
-		audio:[		    
+		audio:[
+			{"left":96,"top":54,"right":258,"bottom":90,src:'unit5/page-54-00.mp3'},
+			{"left":97,"top":93,"right":314,"bottom":123,src:'unit5/page-54-01.mp3'},
+			{"left":97,"top":561,"right":230,"bottom":599,src:'unit5/page-54-02.mp3'},	
+			{"left":196,"top":604,"right":419,"bottom":642,src:'unit5/page-54-03.mp3'},
+			{"left":151,"top":640,"right":462,"bottom":719,src:'unit5/page-54-song.mp3'},
+			{"left":55,"top":561,"right":99,"bottom":602,src:'unit5/page-54-music.mp3'}			
 		]
 	},
 	{
 		unit:5,
 		image:"unit 5/page-55.jpg",
-		audio:[		    
+		audio:[
+			{"left":93,"top":63,"right":239,"bottom":98,src:'unit5/page-55-00.mp3'},
+			{"left":53,"top":115,"right":161,"bottom":161,src:'unit5/page-55-01.mp3'},
+			{"left":178,"top":148,"right":275,"bottom":215,src:'unit5/page-55-02.mp3'},
+			{"left":292,"top":93,"right":368,"bottom":136,src:'unit5/page-55-03.mp3'},
+			{"left":371,"top":112,"right":496,"bottom":173,src:'unit5/page-55-04.mp3'},
+			{"left":65,"top":314,"right":166,"bottom":361,src:'unit5/page-55-05.mp3'},
+			{"left":184,"top":346,"right":263,"bottom":378,src:'unit5/page-55-06.mp3'},
+			{"left":273,"top":304,"right":377,"bottom":330,src:'unit5/page-55-07.mp3'},
+			{"left":340,"top":337,"right":448,"bottom":395,src:'unit5/page-55-08.mp3'},
+			{"left":68,"top":502,"right":183,"bottom":561,src:'unit5/page-55-09.mp3'},
+			{"left":234,"top":513,"right":310,"bottom":551,src:'unit5/page-55-10.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-56.jpg",
-		audio:[		    
+		audio:[
+			{"left":165,"top":46,"right":386,"bottom":107,src:'unit6/page-56-00.mp3'},
+			{"left":46,"top":508,"right":213,"bottom":564,src:'unit6/page-56-01.mp3'},
+			{"left":101,"top":572,"right":156,"bottom":608,src:'unit6/page-56-02.mp3'},
+			{"left":98,"top":669,"right":152,"bottom":707,src:'unit6/page-56-03.mp3'},
+			{"left":284,"top":498,"right":433,"bottom":539,src:'unit6/page-56-04.mp3'},
+			{"left":240,"top":547,"right":367,"bottom":601,src:'unit6/page-56-05.mp3'},
+			{"left":284,"top":609,"right":386,"bottom":665,src:'unit6/page-56-06.mp3'},
+			{"left":250,"top":672,"right":357,"bottom":710,src:'unit6/page-56-07.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-57.jpg",
-		audio:[		    
+		audio:[
+			{"left":69,"top":48,"right":479,"bottom":114,src:'unit6/page-57-00.mp3'},
+			{"left":79,"top":502,"right":247,"bottom":557,src:'unit6/page-57-01.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-58.jpg",
-		audio:[		    
+		audio:[
+			{"left":89,"top":50,"right":225,"bottom":83,src:'unit6/page-58-00.mp3'},
+			{"left":48,"top":101,"right":186,"bottom":179,src:'unit6/page-58-01.mp3'},
+			{"left":192,"top":101,"right":292,"bottom":178,src:'unit6/page-58-02.mp3'},
+			{"left":303,"top":113,"right":422,"bottom":169,src:'unit6/page-58-03.mp3'},
+			{"left":428,"top":130,"right":479,"bottom":170,src:'unit6/page-58-04.mp3'},
+			{"left":48,"top":270,"right":213,"bottom":347,src:'unit6/page-58-05.mp3'},
+			{"left":219,"top":291,"right":311,"bottom":346,src:'unit6/page-58-06.mp3'},
+			{"left":323,"top":281,"right":475,"bottom":320,src:'unit6/page-58-07.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-59.jpg",
-		audio:[		    
+		audio:[
+			{"left":85,"top":57,"right":236,"bottom":91,src:'unit6/page-59-00.mp3'},
+			{"left":108,"top":99,"right":261,"bottom":140,src:'unit6/page-59-01.mp3'},
+			{"left":202,"top":291,"right":271,"bottom":321,src:'unit6/page-59-02.mp3'},
+			{"left":303,"top":163,"right":357,"bottom":188,src:'unit6/page-59-03.mp3'},
+			{"left":263,"top":321,"right":319,"bottom":345,src:'unit6/page-59-04.mp3'},
+			{"left":348,"top":317,"right":395,"bottom":346,src:'unit6/page-59-05.mp3'},
+			{"left":389,"top":284,"right":495,"bottom":318,src:'unit6/page-59-06.mp3'}			
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-60.jpg",
-		audio:[		    
+		audio:[
+			{"left":101,"top":58,"right":247,"bottom":86,src:'unit6/page-60-00.mp3'},
+			{"left":91,"top":90,"right":329,"bottom":122,src:'unit6/page-60-01.mp3'},
+			{"left":104,"top":239,"right":279,"bottom":271,src:'unit6/page-60-02.mp3'},
+			{"left":105,"top":396,"right":405,"bottom":426,src:'unit6/page-60-03.mp3'},
+			{"left":98,"top":274,"right":368,"bottom":377,src:'unit6/page-60-chant.mp3'},
+			{"left":244,"top":51,"right":296,"bottom":92,src:'unit6/page-60-song.mp3'},
+			{"left":439,"top":223,"right":490,"bottom":264,src:'unit6/page-60-song.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-61.jpg",
-		audio:[		    
+		audio:[
+			{"left":87,"top":59,"right":218,"bottom":91,src:'unit6/page-61-00.mp3'},
+			{"left":53,"top":109,"right":165,"bottom":164,src:'unit6/page-61-01.mp3'},
+			{"left":130,"top":170,"right":262,"bottom":226,src:'unit6/page-61-02.mp3'},
+			{"left":261,"top":75,"right":368,"bottom":131,src:'unit6/page-61-03.mp3'},
+			{"left":373,"top":94,"right":492,"bottom":134,src:'unit6/page-61-04.mp3'},
+			{"left":262,"top":240,"right":377,"bottom":296,src:'unit6/page-61-05.mp3'},
+			{"left":396,"top":249,"right":492,"bottom":290,src:'unit6/page-61-06.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-62.jpg",
-		audio:[		    
+		audio:[
+			{"left":100,"top":51,"right":250,"bottom":85,src:'unit6/page-62-00.mp3'},
+			{"left":161,"top":337,"right":273,"bottom":393,src:'unit6/page-62-01.mp3'},
+			{"left":312,"top":341,"right":411,"bottom":398,src:'unit6/page-62-02.mp3'},
+			{"left":90,"top":123,"right":189,"bottom":222,src:'unit6/page-62-03.mp3'},
+			{"left":224,"top":120,"right":330,"bottom":225,src:'unit6/page-62-04.mp3'},
+			{"left":358,"top":119,"right":466,"bottom":228,src:'unit6/page-62-05.mp3'},
+			{"left":157,"top":247,"right":262,"bottom":331,src:'unit6/page-62-06.mp3'},
+			{"left":291,"top":244,"right":396,"bottom":334,src:'unit6/page-62-07.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-63.jpg",
-		audio:[		    
+		audio:[
+			{"left":92,"top":50,"right":312,"bottom":85,src:'unit6/page-63-00.mp3'},
+			{"left":93,"top":87,"right":390,"bottom":122,src:'unit6/page-63-01.mp3'},
+			{"left":38,"top":147,"right":297,"bottom":278,src:'unit6/page-63-02.m,p3'},
+			{"left":32,"top":293,"right":202,"bottom":323,src:'unit6/page-63-03.mp3'},
+			{"left":350,"top":291,"right":505,"bottom":324,src:'unit6/page-63-04.mp3'},
+			{"left":35,"top":372,"right":174,"bottom":404,src:'unit6/page-63-05.mp3'},
+			{"left":354,"top":375,"right":496,"bottom":410,src:'unit6/page-63-06.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-64.jpg",
 		audio:[		    
+			{"left":93,"top":54,"right":256,"bottom":91,src:'unit6/page-64-00.mp3'},
+			{"left":91,"top":93,"right":283,"bottom":123,src:'unit6/page-64-01.mp3'},
+			{"left":94,"top":564,"right":230,"bottom":602,src:'unit6/page-64-02.mp3'},
+			{"left":236,"top":602,"right":368,"bottom":632,src:'unit6/page-64-03.mp3'},
+			{"left":202,"top":632,"right":431,"bottom":718,src:'unit6/page-64-song.mp3'},
+			{"left":54,"top":561,"right":97,"bottom":603,src:'unit6/page-64-music.mp3'}
 		]
 	},
 	{
 		unit:6,
 		image:"unit 6/page-65.jpg",
-		audio:[		    
+		audio:[
+			{"left":91,"top":62,"right":245,"bottom":104,src:'unit6/page-65-00.mp3'},
+			{"left":150,"top":133,"right":246,"bottom":184,src:'unit6/page-65-01.mp3'},
+			{"left":262,"top":149,"right":364,"bottom":201,src:'unit6/page-65-02.mp3'},
+			{"left":323,"top":213,"right":450,"bottom":263,src:'unit6/page-65-03.mp3'},
+			{"left":62,"top":352,"right":166,"bottom":401,src:'unit6/page-65-04.mp3'},
+			{"left":188,"top":377,"right":273,"bottom":415,src:'unit6/page-65-05.mp3'},
+			{"left":166,"top":429,"right":219,"bottom":461,src:'unit6/page-65-06.mp3'},
+			{"left":349,"top":336,"right":439,"bottom":398,src:'unit6/page-65-07.mp3'},
+			{"left":341,"top":414,"right":431,"bottom":443,src:'unit6/page-65-08.mp3'},
+			{"left":61,"top":566,"right":143,"bottom":628,src:'unit6/page-65-09.mp3'},
+			{"left":158,"top":620,"right":231,"bottom":664,src:'unit6/page-65-10.mp3'},
+			{"left":103,"top":649,"right":146,"bottom":679,src:'unit6/page-65-11.mp3'},
+			{"left":270,"top":500,"right":356,"bottom":559,src:'unit6/page-65-12.mp3'},
+			{"left":342,"top":558,"right":418,"bottom":604,src:'unit6/page-65-13.mp3'},
+			{"left":356,"top":671,"right":420,"bottom":713,src:'unit6/page-65-14.mp3'}
 		]
 	},
 	{
 		unit:7,
 		image:"recycle 2/page-66.jpg",
-		audio:[		    
+		audio:[
+			{"left":60,"top":12,"right":316,"bottom":68,src:'recycle2/page-66-00.mp3'},
+			{"left":63,"top":74,"right":188,"bottom":108,src:'recycle2/page-66-01.mp3'},
+			{"left":225,"top":89,"right":313,"bottom":130,src:'recycle2/page-66-02.mp3'},
+			{"left":118,"top":126,"right":200,"bottom":166,src:'recycle2/page-66-03.mp3'},
+			{"left":278,"top":139,"right":412,"bottom":204,src:'recycle2/page-66-04.mp3'},
+			{"left":427,"top":191,"right":501,"bottom":223,src:'recycle2/page-66-05.mp3'},
+			{"left":131,"top":244,"right":212,"bottom":282,src:'recycle2/page-66-06.mp3'},
+			{"left":211,"top":256,"right":288,"bottom":293,src:'recycle2/page-66-07.mp3'},
+			{"left":112,"top":363,"right":202,"bottom":406,src:'recycle2/page-66-08.mp3'},
+			{"left":206,"top":366,"right":323,"bottom":412,src:'recycle2/page-66-09.mp3'},
+			{"left":321,"top":252,"right":454,"bottom":298,src:'recycle2/page-66-10.mp3'},
+			{"left":344,"top":307,"right":430,"bottom":351,src:'recycle2/page-66-11.mp3'},
+			{"left":342,"top":371,"right":441,"bottom":415,src:'recycle2/page-66-12.mp3'},
+			{"left":73,"top":495,"right":161,"bottom":538,src:'recycle2/page-66-13.mp3'},
+			{"left":93,"top":545,"right":189,"bottom":603,src:'recycle2/page-66-14.mp3'},
+			{"left":169,"top":501,"right":273,"bottom":540,src:'recycle2/page-66-15.mp3'},
+			{"left":123,"top":685,"right":209,"bottom":719,src:'recycle2/page-66-16.mp3'},
+			{"left":277,"top":503,"right":349,"bottom":543,src:'recycle2/page-66-17.mp3'},
+			{"left":354,"top":527,"right":486,"bottom":566,src:'recycle2/page-66-18.mp3'},
+			{"left":251,"top":685,"right":457,"bottom":726,src:'recycle2/page-66-19.mp3'}
 		]
 	},
 	{
 		unit:7,
 		image:"recycle 2/page-67.jpg",
-		audio:[		    
+		audio:[
+			{"left":61,"top":55,"right":356,"bottom":85,src:'recycle2/page-67-01.mp3'},
+			{"left":60,"top":443,"right":281,"bottom":474,src:'recycle2/page-67-02.mp3'}
 		]
 	},
 	{
 		unit:7,
 		image:"recycle 2/page-68.jpg",
-		audio:[		    
+		audio:[
+			{"left":60,"top":555,"right":157,"bottom":586,src:'recycle2/page-68-01.mp3'},
+			{"left":61,"top":590,"right":323,"bottom":617,src:'recycle2/page-68-02.mp3'},
+			{"left":37,"top":619,"right":423,"bottom":728,src:'recycle2/page-68-song.mp3'},
+			{"left":160,"top":559,"right":198,"bottom":591,src:'recycle2/page-68-music.mp3'}
 		]
 	},
 	{

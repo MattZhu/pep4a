@@ -1,10 +1,18 @@
 var currentPage=0;
 			
 var audios=[];
-var lastActive;
+var lastActive,lastAudio;
 var container=document.getElementById("container");
-container.addEventListener("touchstart", touchstart);
-container.addEventListener("touchend", touchend);
+var img=document.createElement('img');
+container.appendChild(img);
+if ('ontouchstart' in document.documentElement){
+	img.addEventListener("touchstart", touchstart);
+	img.addEventListener("touchend", touchend);
+}else {
+	img.addEventListener("click", imgClick);
+
+}
+
 var startX,startY;
 function imgClick(e){
 	if(e.offsetX>e.currentTarget.width-100){
@@ -20,28 +28,26 @@ function touchstart(e){
 function touchend(e){
 	var xMove=e.changedTouches[0].pageX-startX;
 	var yMove=e.changedTouches[0].pageY-startY;
-	if(xMove>20){
+	if(xMove>60){
 		previousPage();
 		return;
 	}
-	if(xMove<-20){
+	if(xMove<-60){
 		nextPage();
 		return;
 	}
 }
 function init(page){				
 	container.innerHTML='';
-	var img=document.createElement('img');
-	
+	container.appendChild(img);
 	var unitHeader=document.getElementById("unit");
 	if(page.unit!==undefined){
 		document.title='PEP 4A - '+units[page.unit].title;
 	}else{
 		document.title='PEP 4A';
    }
-	img.src='picture/'+page.image;	
-	img.addEventListener("click", imgClick);
-	container.appendChild(img);
+
+		img.src='picture/'+page.image;	
 	img.onload=function(){
 		var scale=img.clientWidth/540;
 		console.log("scale:",scale);
@@ -78,9 +84,14 @@ function scaleValue(val,s){
 function playAudio(){
 	if(lastActive){
 		lastActive.classList.remove('active');
+		if(!lastAudio.ended){
+			lastAudio.pause();
+			lastAudio.currentTime=0;
+		}
 	}
 	lastActive=this;
-	this.classList.add('active');
+	this.classList.add('active');	
+	lastAudio=audios[this.getAttribute('idx')];
 	audios[this.getAttribute('idx')].play();
 }
 function nextPage(){
